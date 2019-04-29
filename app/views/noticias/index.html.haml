@@ -1,0 +1,22 @@
+%h1 Noticias
+%table.table
+  %thead
+    %tr
+      %th titulo
+      %th url
+      %th sitio
+      %th fecha
+      %th
+  %tbody
+    - @noticias.each do |noticia|
+      %tr
+        %td= noticia.titulo
+        %td= noticia.url
+        %td= noticia.sitio
+        %td= noticia.fecha
+        %td
+          .btn-group
+            = link_to noticia, class: 'btn btn-info' do
+              = fa_icon('eye')
+            = link_to [:edit, noticia], class: 'btn btn-warning' do
+              = fa_icon('pencil-alt')

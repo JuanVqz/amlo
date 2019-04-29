@@ -25,9 +25,7 @@ RSpec.describe "noticias/new", type: :view do
 
       assert_select "input[name=?]", "noticia[contenido]"
 
-      assert_select "input[name=?]", "noticia[fecha]"
-
-      assert_select "input[name=?]", "noticia[sitio_id]"
+      assert_select "select[name=?]", "noticia[sitio_id]"
     end
   end
 end

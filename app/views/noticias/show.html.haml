@@ -1,0 +1,26 @@
+%p
+  %strong Titulo:
+  = @noticia.titulo
+%p
+  %strong Descripcion corta:
+  = @noticia.descripcion_corta
+%p
+  %strong Url:
+  = @noticia.url
+%p
+  %strong Contenido:
+  = @noticia.contenido
+%p
+  %strong Fecha:
+  = @noticia.fecha
+%p
+  %strong Sitio:
+  = @noticia.sitio
+
+.btn-group
+  = link_to [:noticias], class: 'btn btn-dark' do
+    = fa_icon('arrow-left')
+    regresar
+  = link_to [:edit, @noticia], class: 'btn btn-warning push-right' do
+    = fa_icon('pencil-alt')
+    editar

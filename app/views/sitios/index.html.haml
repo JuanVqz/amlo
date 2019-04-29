@@ -1,0 +1,22 @@
+%h1 Sitios
+= link_to new_sitio_path, class: 'btn btn-dark float-right' do
+  registrar sitio
+%table.table
+  %thead
+    %tr
+      %th nombre
+      %th url
+      %th ultimo indexado
+      %th
+  %tbody
+    - @sitios.each do |sitio|
+      %tr
+        %td= sitio.nombre
+        %td= sitio.url
+        %td= sitio.ultimo_indexado
+        %td
+          .btn-group
+            = link_to sitio, class: 'btn btn-info' do
+              = fa_icon('eye')
+            = link_to [:edit, sitio], class: 'btn btn-warning' do
+              = fa_icon('pencil-alt')

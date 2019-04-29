@@ -27,8 +27,6 @@ RSpec.describe "noticias/index", type: :view do
   it "renders a list of noticias" do
     render
     assert_select "tr>td", :text => "Titulo".to_s, :count => 2
-    assert_select "tr>td", :text => "Descripcion Corta".to_s, :count => 2
     assert_select "tr>td", :text => "Url".to_s, :count => 2
-    assert_select "tr>td", :text => "Contenido".to_s, :count => 2
   end
 end

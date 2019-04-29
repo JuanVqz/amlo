@@ -1,0 +1,16 @@
+%nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  = link_to root_path, class: 'navbar-brand' do
+    AMLO
+  %button.navbar-toggler{"aria-controls" => "navbarNav",
+    "aria-expanded" => "false", "aria-label" => "Toggle navigation",
+    "data-target" => "#navbarNav", "data-toggle" => "collapse",
+    :type => "button"}
+    %span.navbar-toggler-icon
+  #navbarNav.collapse.navbar-collapse
+    %ul.navbar-nav
+      %li{ "class": "nav-item #{ruta_actual(noticias_path)}" }
+        = link_to noticias_path, class: 'nav-link' do
+          Noticias
+      %li{ "class": "nav-item #{ruta_actual(sitios_path)}" }
+        = link_to sitios_path, class: 'nav-link' do
+          Sitios

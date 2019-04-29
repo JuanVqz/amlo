@@ -21,7 +21,6 @@ RSpec.describe "sitios/index", type: :view do
   it "renders a list of sitios" do
     render
     assert_select "tr>td", :text => "Nombre".to_s, :count => 1
-    assert_select "tr>td", :text => "Descripcion".to_s, :count => 2
     assert_select "tr>td", :text => "Url".to_s, :count => 1
   end
 end

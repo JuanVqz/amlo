@@ -1,0 +1,21 @@
+= simple_form_for @noticia do |f|
+  .row
+    .col-md-6
+      = f.input :titulo
+    .col-md-6
+      = f.input :descripcion_corta
+    .col-md-6
+      = f.input :url
+    .col-md-6
+      = f.input :contenido
+    .col-md-6
+      = f.input :fecha, as: :datetime
+    .col-md-6
+      = f.input :sitio_id, collection: Sitio.all
+
+    .col-md-12
+      .btn-group
+        = link_to [:noticias], class: 'btn btn-dark' do
+          = fa_icon('arrow-left')
+          regresar
+        = f.submit 'actualizar noticia', class: 'btn btn-primary'

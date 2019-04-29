@@ -1,0 +1,21 @@
+%p#notice= notice
+%p
+  %strong Nombre:
+  = @sitio.nombre
+%p
+  %strong Descripcion:
+  = @sitio.descripcion
+%p
+  %strong Url:
+  = @sitio.url
+%p
+  %strong Ultimo indexado:
+  = @sitio.ultimo_indexado
+
+.btn-group
+  = link_to [:sitios], class: 'btn btn-dark' do
+    = fa_icon('arrow-left')
+    regresar
+  = link_to [:edit, @sitio], class: 'btn btn-warning' do
+    = fa_icon('pencil-alt')
+    editar

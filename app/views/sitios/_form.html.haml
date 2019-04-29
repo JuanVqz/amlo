@@ -1,0 +1,17 @@
+= simple_form_for @sitio do |f|
+  .row
+    .col-md-6
+      = f.input :nombre
+    .col-md-6
+      = f.input :descripcion
+    .col-md-6
+      = f.input :url
+    .col-md-6
+      = f.input :ultimo_indexado
+
+    .col-md-12
+      .btn-group
+        = link_to [:sitios], class: 'btn btn-dark' do
+          = fa_icon('arrow-left')
+          regresar
+        = f.submit class: 'btn btn-primary'
