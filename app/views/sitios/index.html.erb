@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Sitios</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Descripcion</th>
+      <th>Url</th>
+      <th>Ultimo indexado</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sitios.each do |sitio| %>
+      <tr>
+        <td><%= sitio.nombre %></td>
+        <td><%= sitio.descripcion %></td>
+        <td><%= sitio.url %></td>
+        <td><%= sitio.ultimo_indexado %></td>
+        <td><%= link_to 'Show', sitio %></td>
+        <td><%= link_to 'Edit', edit_sitio_path(sitio) %></td>
+        <td><%= link_to 'Destroy', sitio, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Sitio', new_sitio_path %>

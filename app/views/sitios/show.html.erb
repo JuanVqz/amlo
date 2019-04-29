@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @sitio.nombre %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @sitio.descripcion %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @sitio.url %>
+</p>
+
+<p>
+  <strong>Ultimo indexado:</strong>
+  <%= @sitio.ultimo_indexado %>
+</p>
+
+<%= link_to 'Edit', edit_sitio_path(@sitio) %> |
+<%= link_to 'Back', sitios_path %>
