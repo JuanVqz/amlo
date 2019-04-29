@@ -10,10 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_29_043556) do
+ActiveRecord::Schema.define(version: 2019_04_29_045524) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "noticias", force: :cascade do |t|
+    t.string "titulo"
+    t.string "descripcion_corta"
+    t.string "url"
+    t.string "contenido"
+    t.datetime "fecha", default: -> { "CURRENT_TIMESTAMP" }
+    t.bigint "sitio_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["sitio_id"], name: "index_noticias_on_sitio_id"
+  end
 
   create_table "sitios", force: :cascade do |t|
     t.string "nombre"
@@ -24,4 +36,5 @@ ActiveRecord::Schema.define(version: 2019_04_29_043556) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "noticias", "sitios"
 end
