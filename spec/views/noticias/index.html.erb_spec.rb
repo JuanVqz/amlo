@@ -4,7 +4,7 @@ RSpec.describe "noticias/index", type: :view do
   let(:sitio) { create :sitio }
 
   before(:each) do
-    assign(:noticias, [
+    assign(:noticias, Kaminari.paginate_array([
       Noticia.create!(
         :titulo => "Titulo",
         :descripcion_corta => "Descripcion Corta",
@@ -21,7 +21,7 @@ RSpec.describe "noticias/index", type: :view do
         :fecha => Date.new(2019, 04, 28),
         :sitio => sitio
       )
-    ])
+    ]).page(1))
   end
 
   it "renders a list of noticias" do

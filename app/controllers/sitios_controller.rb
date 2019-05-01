@@ -4,7 +4,7 @@ class SitiosController < ApplicationController
   # GET /sitios
   # GET /sitios.json
   def index
-    @sitios = Sitio.all
+    @sitios = Sitio.page(params[:page]).per(params[:per_page])
   end
 
   # GET /sitios/1

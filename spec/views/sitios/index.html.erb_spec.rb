@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "sitios/index", type: :view do
   before(:each) do
-    assign(:sitios, [
+    assign(:sitios, Kaminari.paginate_array([
       Sitio.create!(
         :nombre => "Nombre",
         :descripcion => "Descripcion",
@@ -15,7 +15,7 @@ RSpec.describe "sitios/index", type: :view do
         :url => "Url 2",
         :ultimo_indexado => "Ultimo Indexado"
       )
-    ])
+    ]).page(1))
   end
 
   it "renders a list of sitios" do

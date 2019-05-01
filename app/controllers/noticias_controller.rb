@@ -4,7 +4,7 @@ class NoticiasController < ApplicationController
   # GET /noticias
   # GET /noticias.json
   def index
-    @noticias = Noticia.all
+    @noticias = Noticia.page(params[:page]).per(params[:per_page])
   end
 
   # GET /noticias/1
