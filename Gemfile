@@ -18,6 +18,7 @@ gem 'jquery-rails'
 gem 'font_awesome5_rails'
 gem 'httparty'
 gem 'kaminari'
+gem 'sidekiq'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
