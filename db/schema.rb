@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2019_04_29_045524) do
   enable_extension "plpgsql"
 
   create_table "noticias", force: :cascade do |t|
+    t.integer "id_original"
     t.string "titulo"
     t.string "descripcion_corta"
     t.string "url"

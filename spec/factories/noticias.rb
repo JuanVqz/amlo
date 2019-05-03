@@ -1,5 +1,6 @@
 FactoryBot.define do
   factory :noticia do
+    id_original { 1 }
     titulo { "MyString" }
     descripcion_corta { "MyString" }
     url { "MyString" }

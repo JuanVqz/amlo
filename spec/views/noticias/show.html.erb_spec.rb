@@ -5,6 +5,7 @@ RSpec.describe "noticias/show", type: :view do
 
   before(:each) do
     @noticia = assign(:noticia, Noticia.create!(
+      :id_original => 1,
       :titulo => "Titulo",
       :descripcion_corta => "Descripcion Corta",
       :url => "Url",

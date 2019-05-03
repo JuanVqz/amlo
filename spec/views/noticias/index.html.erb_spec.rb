@@ -6,6 +6,7 @@ RSpec.describe "noticias/index", type: :view do
   before(:each) do
     assign(:noticias, Kaminari.paginate_array([
       Noticia.create!(
+        :id_original => 1,
         :titulo => "Titulo",
         :descripcion_corta => "Descripcion Corta",
         :url => "Url",
@@ -14,6 +15,7 @@ RSpec.describe "noticias/index", type: :view do
         :sitio => sitio
       ),
       Noticia.create!(
+        :id_original => 1,
         :titulo => "Titulo",
         :descripcion_corta => "Descripcion Corta",
         :url => "Url",
