@@ -1,24 +1,29 @@
-# README
+# NOTICIAS DE AMLO
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Se recuperan noticias de diversos sitios de comunicación del presidente de México.
 
-Things you may want to cover:
+## requisitos
+* ruby 2.6.1
+* ruby on rails 5.2.3
+* redis
+* postgresql
 
-* Ruby version
+## instalación
+```sh
+git clone https://github.com/JuanVqz/amlo.git
+cd amlo
+bundle install
 
-* System dependencies
+rails db:create
+rails db:migrate
 
-* Configuration
+sidekiq
+rails serve
+```
 
-* Database creation
+## ejecutar pruebas
+```
+rails db:test:prepare
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rake
+```
