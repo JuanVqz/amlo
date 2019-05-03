@@ -3,7 +3,6 @@
   %thead
     %tr
       %th titulo
-      %th url
       %th sitio
       %th fecha
       %th
@@ -11,9 +10,8 @@
     - @noticias.each do |noticia|
       %tr
         %td= noticia.titulo
-        %td= noticia.url
         %td= noticia.sitio
-        %td= noticia.fecha
+        %td= time_ago_in_words noticia.fecha
         %td
           .btn-group
             = link_to noticia, class: 'btn btn-info' do
