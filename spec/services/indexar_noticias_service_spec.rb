@@ -1,25 +1,25 @@
 require 'rails_helper'
 
-RSpec.describe CambiarFormatoNoticiasService do
+RSpec.describe IndexarNoticiasService do
 
   subject { described_class }
 
-  let(:forbes) do
+  let(:sitio) do
     create :sitio, nombre: 'Forbes',
       url: 'https://www.forbes.com.mx/wp-json/wp/v2/posts'
   end
 
   before :each do
-    datos  = ObtenerNoticiasService.new(forbes, "amlo").buscar
-    @notas = subject.new(datos).generar
+    datos  = ObtenerNoticiasService.new(sitio, "amlo").buscar
+    @notas = subject.new(sitio, datos).seleccionar
   end
 
   it "debe regresar un arreglo", :vcr do
     expect(@notas).to be_an Array
   end
 
-  it "debe tener un id", :vcr do
-    expect(@notas.first).to have_key :id
+  it "debe tener un id_original", :vcr do
+    expect(@notas.first).to have_key :id_original
   end
 
   it "debe tener un titulo", :vcr do

@@ -1,0 +1,466 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.forbes.com.mx/wp-json/wp/v2/posts?search=amlo
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 03 May 2019 19:14:10 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dc0a07438d28a5d66be1b44d823d3577e1556910850; expires=Sat, 02-May-20
+        19:14:10 GMT; path=/; domain=.forbes.com.mx; HttpOnly
+      X-Robots-Tag:
+      - noindex
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Expose-Headers:
+      - X-WP-Total, X-WP-TotalPages
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      X-Wp-Total:
+      - '1175'
+      X-Wp-Totalpages:
+      - '118'
+      Link:
+      - <https://www.forbes.com.mx/wp-json/wp/v2/posts?search=amlo&page=2>; rel="next"
+      Allow:
+      - GET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Backend-Server:
+      - forbesmx-59f7c6c44-vd9wc
+      X-Cachef:
+      - HIT
+      X-Upstream:
+      - 10.47.244.87:80
+      Via:
+      - 1.1 google
+      Alt-Svc:
+      - clear
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4d148e717d0ad262-DFW
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":561094,"date":"2019-05-03T10:23:42","date_gmt":"2019-05-03T15:23:42","guid":{"rendered":"https:\/\/www.forbes.com.mx\/?p=561094"},"modified":"2019-05-03T10:23:42","modified_gmt":"2019-05-03T15:23:42","slug":"si-la-ip-no-se-apunta-amlo-proyecta-organismo-para-llevar-internet-a-todo-el-pais","status":"publish","type":"post","link":"https:\/\/www.forbes.com.mx\/si-la-ip-no-se-apunta-amlo-proyecta-organismo-para-llevar-internet-a-todo-el-pais\/","title":{"rendered":"Si
+        la IP no se apunta, AMLO proyecta organismo para llevar internet a todo el
+        pa\u00eds"},"content":{"rendered":"<p><strong>Notimex.-<\/strong> El presidente
+        Andr\u00e9s Manuel L\u00f3pez Obrador inform\u00f3 que se podr\u00eda crear
+        un organismo estatal para garantizar la conectividad en todo el pa\u00eds,
+        en caso de que declare desierta la licitaci\u00f3n de los 50,000 kil\u00f3metros
+        de la red de fibra \u00f3ptica de la Comisi\u00f3n Federal de Electricidad
+        (CFE).<\/p>\n<p>\u201cSi no les importa la concesi\u00f3n (a las empresas),
+        si se declara desierta la convocatoria, no descartamos la creaci\u00f3n de
+        un organismo del Estado mexicano para garantizar la comunicaci\u00f3n, porque
+        si logramos comunicar a todo el pa\u00eds, va a ser un avance important\u00edsimo,
+        toda una revoluci\u00f3n, ese es el prop\u00f3sito\u201d, indic\u00f3.<\/p>\n<p>Durante
+        su conferencia &#171;ma\u00f1anera&#187; desde Palacio Nacional, el mandatario
+        se\u00f1al\u00f3 que el pa\u00eds est\u00e1 muy atrasado en t\u00e9rminos
+        de acceso a internet y telefon\u00eda, incluso dijo, es de los pa\u00edses
+        m\u00e1s atrasados del mundo.<\/p>\n<p>\u201cLo que necesitamos primero es
+        conectarnos, ese es el compromiso que tenemos, que haya comunicaci\u00f3n
+        en todo el territorio, internet en todo el territorio, eso lo vamos a cumplir,
+        para eso estamos optando por dos caminos\u201d, detall\u00f3.<\/p>\n<p>Uno
+        de esos caminos, dijo, es que se pueda otorgar una concesi\u00f3n de las redes
+        de las l\u00edneas de la CFE que llegan pr\u00e1cticamente a todo el pa\u00eds.<\/p>\n<p>\u201cA
+        pesar de que han hecho reformas a la Constituci\u00f3n, pero como predomina
+        el lucro sobre el servicio social, sobre la comunicaci\u00f3n, las empresas
+        se concentran en las ciudades y por eso en el 75% del territorio no hay conectividad\u201d,
+        insisti\u00f3.<\/p>\n<p><em><strong>Lee tambi\u00e9n:\u00a0<\/strong><\/em><a
+        title=\"Carlos Slim Domit apoya est\u00edmulos a inversi\u00f3n para internet
+        en todo el pa\u00eds\" href=\"https:\/\/www.forbes.com.mx\/internet-para-todos-requiere-estimulos-a-la-inversion-dice-slim-domit-a-amlo\/\"><em><strong>Carlos
+        Slim Domit apoya est\u00edmulos a inversi\u00f3n para internet en todo el
+        pa\u00eds<\/strong><\/em><\/a><\/p>\n<p>El titular del Ejecutivo se\u00f1al\u00f3
+        que la empresa que obtenga la concesi\u00f3n de la red de fibra \u00f3ptica
+        podr\u00e1 instalar &#171;lo que llaman la \u00faltima milla&#187; para llegar
+        a los domicilios y cobrar por el servicio a particulares.<\/p>\n<p>En tanto
+        que el gobierno, en contraprestaci\u00f3n por dar la concesi\u00f3n de la
+        l\u00ednea de la CFE, recibir\u00eda el compromiso del mantenimiento de la
+        red y sobre todo que se garantice el servicio de internet gratuito en plazas
+        p\u00fablicas, escuelas, hospitales y en centro integradores de servicios,
+        agreg\u00f3.<\/p>\n<p>\u201cEstamos seleccionando 10,000 centros integradores
+        de servicio para que podamos tambi\u00e9n tener posibilidad de pagar con tarjeta,
+        que se pueda tener una sucursal bancaria en las comunidades m\u00e1s apartados
+        y que no se tenga que pagar en efectivo, me refiero a los apoyos que el gobierno
+        est\u00e1 destinando a la gente, en las zonas m\u00e1s apartadas, eso es primario\u201d,
+        apunt\u00f3.<\/p>\n<p>L\u00f3pez Obrador dijo que hoy ya se habla de la rob\u00f3tica,
+        de que todo va a estar automatizado, sin embargo, el pa\u00eds no tiene la
+        infraestructura necesaria.<\/p>\n<p>\u201cDesgraciadamente nuestro pa\u00eds
+        no tiene la comunicaci\u00f3n elemental; en todo el territorio de Oaxaca solo
+        se puede comunicar por tel\u00e9fono en el 3.0%, es un gran atraso, es tache
+        a los gobiernos y a los que han recibido concesiones\u201d, expres\u00f3.<\/p>\n<p>El
+        pasado 12 de marzo, la CFE public\u00f3 las prebases de la licitaci\u00f3n
+        de la llamada red troncal, la cual tendr\u00e1 por objeto la adjudicaci\u00f3n
+        de un contrato de aprovechamiento para el uso, accesorio, temporal y compatible
+        de infraestructura sobre dos hilos de fibra \u00f3ptica oscura para poner
+        en operaci\u00f3n una red de telecomunicaciones de \u00faltima generaci\u00f3n
+        y a trav\u00e9s de ella materializar el programa gubernamental \u201cInternet
+        para Todos\u201d.<\/p>\n<p>Este plan del gobierno federal busca proporcionar
+        acceso a internet a instituciones p\u00fablicas como escuelas, hospitales,
+        parques p\u00fablicos, edificios federales, de manera gratuita y as\u00ed
+        disminuir la brecha digital.<\/p>\n<p><em><strong>Te recomendamos:<\/strong><\/em><\/p>\n<blockquote
+        class=\"wp-embedded-content\" data-secret=\"rjXqOPBfCH\"><p><a href=\"https:\/\/www.forbes.com.mx\/ahora-facebook-proveera-internet-a-bajo-costo-en-mexico-y-brasil\/\">Ahora
+        Facebook proveer\u00e1 internet a bajo costo en M\u00e9xico y Brasil<\/a><\/p><\/blockquote>\n<p><iframe
+        class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\"
+        style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https:\/\/www.forbes.com.mx\/ahora-facebook-proveera-internet-a-bajo-costo-en-mexico-y-brasil\/embed\/#?secret=rjXqOPBfCH\"
+        data-secret=\"rjXqOPBfCH\" width=\"600\" height=\"338\" title=\"&#171;Ahora
+        Facebook proveer\u00e1 internet a bajo costo en M\u00e9xico y Brasil&#187;
+        &#8212; Forbes M\u00e9xico\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\"
+        scrolling=\"no\"><\/iframe><\/p>\n","protected":false},"excerpt":{"rendered":"<p>AMLO
+        tiene en mente un organismo que provea internet si la licitaci\u00f3n de la
+        red troncal de la CFE se declara desierta.<\/p>\n","protected":false},"author":6,"featured_media":438226,"comment_status":"closed","ping_status":"closed","sticky":false,"template":"","format":"standard","meta":[],"categories":[9],"tags":[2786,3703,124874,96],"yst_prominent_words":[87521,67825,45085,78736,111328,75863,63554,35336,35943,62907,43745,43747,87525,62865,62825,66240,124870,124868,43639,74221],"_links":{"self":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/561094"}],"collection":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/types\/post"}],"author":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/users\/6"}],"replies":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/comments?post=561094"}],"version-history":[{"count":1,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/561094\/revisions"}],"predecessor-version":[{"id":561105,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/561094\/revisions\/561105"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media\/438226"}],"wp:attachment":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media?parent=561094"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/categories?post=561094"},{"taxonomy":"post_tag","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/tags?post=561094"},{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/yst_prominent_words?post=561094"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":560802,"date":"2019-05-03T08:00:25","date_gmt":"2019-05-03T13:00:25","guid":{"rendered":"https:\/\/www.forbes.com.mx\/?p=560802"},"modified":"2019-05-02T20:56:57","modified_gmt":"2019-05-03T01:56:57","slug":"pese-a-criticas-internas-gobierno-de-amlo-mantiene-meta-de-energias-limpias","status":"publish","type":"post","link":"https:\/\/www.forbes.com.mx\/pese-a-criticas-internas-gobierno-de-amlo-mantiene-meta-de-energias-limpias\/","title":{"rendered":"Pese
+        a cr\u00edticas internas, gobierno de AMLO mantiene meta de energ\u00edas
+        limpias"},"content":{"rendered":"<p>A pesar de las cr\u00edticas internas,
+        el gobierno del presidente Andr\u00e9s Manuel L\u00f3pez Obrador mantuvo la
+        meta de generaci\u00f3n el\u00e9ctrica con energ\u00edas limpias hacia 2024.<\/p>\n<p>&#171;Para
+        cumplir con la Ley General de Cambio Clim\u00e1tico y la Ley de Transici\u00f3n
+        Energ\u00e9tica, el\u00a0 Gobierno de M\u00e9xico trabajar\u00e1 para llegar
+        hasta un 35% (de la generaci\u00f3n el\u00e9ctrica) para 2024&#187;, detall\u00f3
+        el Plan Nacional de Desarrollo (PND) 2019-2024.<\/p>\n<p>El gobierno reconoci\u00f3
+        que nuestro pa\u00eds se encuentra en una &#171;posici\u00f3n muy rezagada&#187;
+        en materia de generaci\u00f3n el\u00e9ctrica renovable. En 2018, solo 22.5%
+        de la energ\u00eda generada provino de la fuentes limpias, de acuerdo con
+        el documento.<\/p>\n<p>Estos ejes generales fueron presentados en medio de
+        cr\u00edticas internas del gobierno hacia las energ\u00edas renovables.<\/p>\n<p>La
+        m\u00e1s reciente ocurri\u00f3 el pasado 29 de abril, cuando el director general
+        del Centro Nacional de Control de Energ\u00eda (Cenace), Alfonso Morcos Flores,
+        dijo que dicha meta era &#171;irrealizable&#187;. Adem\u00e1s mencion\u00f3
+        que propondr\u00e1 a la Secretar\u00eda de Energ\u00eda un desarrollo &#171;adecuado&#187;
+        de las fuentes renovables.<\/p>\n<p><em><strong>Aqu\u00ed la historia:\u00a0<a
+        href=\"https:\/\/www.forbes.com.mx\/meta-de-energias-limpias-en-mexico-para-2024-es-irrealizable-cenace\/\">Meta
+        de energ\u00edas limpias en M\u00e9xico para 2024 es irrealizable: Cenace<\/a><\/strong><\/em><\/p>\n<p>Otro
+        ataque vino del director general de la empresa estatal Comisi\u00f3n Federal
+        de Electricidad, Manuel Bartlett, quien critic\u00f3 a las energ\u00edas limpias
+        al tiempo que dijo que sus costos baratos de generaci\u00f3n son <a href=\"https:\/\/www.forbes.com.mx\/la-gran-mentira-de-las-energias-renovables-segun-la-cfe\/\">una
+        mentira<\/a>, el 28 de marzo de 2019.<\/p>\n<p>Para la asesora y fundadora
+        de la firma Brilliant Energy, Miriam Grunstein, los lineamientos sobre energ\u00edas
+        limpias en el PND fueron establecidos por el equipo del jefe de la oficina
+        de Presidencia, Alfonso Romo, los cuales ya hab\u00edan sidos planteados en
+        el Plan de Naci\u00f3n, y critic\u00f3 que no hubo claridad ni profundidad
+        en las metas.<\/p>\n","protected":false},"excerpt":{"rendered":"<p>El gobierno
+        mexicano reconoci\u00f3 que nuestro pa\u00eds est\u00e1 muy rezagado en la
+        generaci\u00f3n el\u00e9ctrica con fuentes limpias.<\/p>\n","protected":false},"author":99,"featured_media":128836,"comment_status":"closed","ping_status":"closed","sticky":false,"template":"","format":"standard","meta":[],"categories":[9],"tags":[2786,3400,19637,20793,31,1804],"yst_prominent_words":[113945,77916,124530,43369,36625,63282,40405,40408,85586,44660,83454,35336,73282,63094,74313,45511,44053,34448,36377,62904],"_links":{"self":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560802"}],"collection":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/types\/post"}],"author":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/users\/99"}],"replies":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/comments?post=560802"}],"version-history":[{"count":2,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560802\/revisions"}],"predecessor-version":[{"id":561060,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560802\/revisions\/561060"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media\/128836"}],"wp:attachment":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media?parent=560802"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/categories?post=560802"},{"taxonomy":"post_tag","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/tags?post=560802"},{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/yst_prominent_words?post=560802"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":560939,"date":"2019-05-03T06:30:20","date_gmt":"2019-05-03T11:30:20","guid":{"rendered":"https:\/\/www.forbes.com.mx\/?p=560939"},"modified":"2019-05-03T08:32:48","modified_gmt":"2019-05-03T13:32:48","slug":"pnd-2019-2024-el-plan-de-amlo-no-es-suficiente-para-reactivar-inversiones-especialistas","status":"publish","type":"post","link":"https:\/\/www.forbes.com.mx\/pnd-2019-2024-el-plan-de-amlo-no-es-suficiente-para-reactivar-inversiones-especialistas\/","title":{"rendered":"PND
+        2019-2024 | El plan de AMLO no es suficiente para reactivar inversiones: especialistas"},"content":{"rendered":"<p>El
+        <a href=\"https:\/\/www.forbes.com.mx\/la-importancia-de-los-menores-dentro-del-pnd\/\">Plan
+        Nacional de Desarrollo<\/a> (PND) 2019-2024, que present\u00f3 el presidente
+        Andr\u00e9s Manuel L\u00f3pez Obrador el 1 de mayo y el cual establece los
+        problemas nacionales y enumera las soluciones para el sexenio, ayuda a generar
+        certidumbre para los empresarios, pero no es suficiente para reactivar las
+        inversiones en su totalidad. Falta detallar el c\u00f3mo se ejecutar\u00e1n
+        algunos planes de la presente administraci\u00f3n, sobre todo los relacionados
+        con la iniciativa privada, de acuerdo con especialistas.<\/p>\n<p>En tiempos
+        de campa\u00f1a electoral y al inicio del nuevo gobierno algunos factores
+        generaron el descontento de los empresarios en el pa\u00eds, entre ellos la
+        cancelaci\u00f3n del nuevo aeropuerto de la Ciudad de M\u00e9xico, el tema
+        de la regulaci\u00f3n de las comisiones bancarias y en materia de miner\u00eda,
+        entre otros.<\/p>\n<p><strong>TAMBI\u00c9N LEE: <\/strong><a href=\"https:\/\/www.forbes.com.mx\/erradicar-corrupcion-objetivo-central-en-plan-nacional-de-desarrollo\/\">Erradicar
+        corrupci\u00f3n, objetivo central del Plan Nacional de Desarrollo<\/a><\/p>\n<p>\u201cVemos
+        que lo del PND tiene una buena intenci\u00f3n, sin embargo, para que se reactive
+        la inversi\u00f3n y otra vez tome fuerza, se necesita que el sector privado
+        tenga mayor certidumbre desde lo que se genera a nivel legislatura y de presidencia.
+        Pareciera a nivel econ\u00f3mico que se juega a los \u2018congelados\u2019,
+        donde nadie se mueve a la espera de ver lo que puede pasar con la econom\u00eda\u201d,
+        opin\u00f3 Gabriela Siller, directora de An\u00e1lisis Econ\u00f3mico-Financiero
+        de Banco BASE.<\/p>\n<h2>Los efectos EPN y Trump<\/h2>\n<p>La incertidumbre
+        que hoy viven los empresarios en M\u00e9xico es mayor con la entrada del gobierno
+        de AMLO que hace seis a\u00f1os, en tiempos de Enrique Pe\u00f1a Nieto, pero
+        no en la misma magnitud que cuando lleg\u00f3 Donald Trump a la presidencia
+        de Estados Unidos, arrojan datos del estudio Perspectivas de la Alta Direcci\u00f3n
+        en M\u00e9xico 2019 de la consultora <a href=\"https:\/\/www.forbes.com.mx\/empresarios-sienten-mayor-incertidumbre-con-amlo-que-con-pena-nieto-kpmg\/\"
+        target=\"_blank\" rel=\"noopener noreferrer\">KPMG<\/a>, presentado antes
+        de la reuni\u00f3n de AMLO con el <a href=\"https:\/\/www.forbes.com.mx\/empresarios-abiertos-al-intercambio-con-el-gobierno-antonio-del-valle\/\"
+        target=\"_blank\" rel=\"noopener noreferrer\">Consejo Mexicano de Negocios<\/a>
+        y el nuevo l\u00edder del Consejo Coordinador Empresarial (<a href=\"https:\/\/www.forbes.com.mx\/acabar-con-la-pobreza-y-aumentar-inversion-compromisos-de-ip-ante-amlo\/\"
+        target=\"_blank\" rel=\"noopener noreferrer\">CCE<\/a>), Carlos Salazar Lomel\u00edn,
+        en febrero.<\/p>\n<p>\u201cLa incertidumbre como quiera ha disminuido, no
+        est\u00e1 tan alta como en el primer trimestre, creemos que ya ha repuntado
+        un poco la econom\u00eda, pero definitivamente tiene que pasar un poco m\u00e1s
+        de tiempo\u201d, a\u00f1adi\u00f3 Siller.<\/p>\n<p>Por su parte, <a href=\"https:\/\/www.forbes.com.mx\/hay-riesgo-de-perdida-de-competitividad-y-productividad-en-el-pais-idic\/\">Jos\u00e9
+        Luis de la Cruz<\/a>, director del Instituto para el Desarrollo Industrial
+        y el Crecimiento Econ\u00f3mico (IDIC), indic\u00f3 que el Plan Nacional de
+        Desarrollo tiene elementos positivos, pues confirma la visi\u00f3n del presidente
+        de buscar el desarrollo social, el combate a la corrupci\u00f3n y generar
+        una econom\u00eda m\u00e1s equitativa.<\/p>\n<p>Sin embargo, ahora lo que
+        ser\u00e1 relevante es detallar el c\u00f3mo se alcanzar\u00e1n esas metas
+        y planes, sobre todo en sectores como el industrial, que enfrenta la mayor
+        contracci\u00f3n econ\u00f3mica, agreg\u00f3 el especialista.<\/p>\n<p>\u201cTodav\u00eda
+        ser\u00e1 necesario que el sector privado pueda expresarse en el Congreso
+        sobre las reflexiones que siguen\u2026 Que permitan generar mayores elementos
+        de lo que en realidad requiere el sector privado\u201d, dijo de la Cruz sobre
+        generar mayor certidumbre.<\/p>\n<h2>Igualdad y mejores servicios<\/h2>\n<p>A
+        continuaci\u00f3n, te presentamos algunos fragmentos del PND relacionados
+        con el eje general de Desarrollo Econ\u00f3mico y la iniciativa privada:<\/p>\n<p>-Promover
+        la entrada de m\u00e1s participantes y asegurar que las condiciones que todos
+        enfrentan sean equitativas puede ayudar a que las empresas m\u00e1s exitosas
+        correspondan a aquellas que proveen los mejores servicios y los bienes de
+        mayor calidad a menor precio. En este sentido, el comercio internacional y
+        la inversi\u00f3n nacional y extranjera pueden contribuir a la entrada de
+        nuevos participantes en estos sectores.<\/p>\n<p>-Se buscar\u00e1n esquemas
+        de participaci\u00f3n p\u00fablico-privados en los proyectos de inversi\u00f3n
+        del gobierno federal en infraestructura y sectores estrat\u00e9gicos.<\/p>\n<p>-Ser\u00e1
+        importante continuar promoviendo industrias que han sido exitosas, que son
+        una fuente importante de empleo e inversi\u00f3n y que est\u00e1n integradas
+        en la econom\u00eda global, como la producci\u00f3n automotriz o el potencial
+        tur\u00edstico.<\/p>\n<p>-Se favorecer\u00e1 la integraci\u00f3n de las empresas
+        peque\u00f1as en las cadenas de valor y el comercio internacional, la inversi\u00f3n
+        nacional y extranjera en las regiones rezagadas y en diversos sectores econ\u00f3micos,
+        y la modernizaci\u00f3n de la infraestructura que conecte a las regiones marginadas.<\/p>\n<p>-Para
+        promover la convivencia arm\u00f3nica entre las personas, empresas y gobierno,
+        la tarea del Estado es definir reglas claras y hacerlas cumplir. El gobierno
+        combatir\u00e1 las pr\u00e1cticas de fraude fiscal, evasi\u00f3n y elusi\u00f3n
+        con la finalidad de que todos, ciudadanos y empresas, contribuyan fiscalmente
+        con lo que les corresponde, con la seguridad de que estos recursos ser\u00e1n
+        utilizados de manera honesta, austera, responsable, eficiente y transparente
+        para proveer bienes p\u00fablicos que atiendan las necesidades b\u00e1sicas
+        de la poblaci\u00f3n.<\/p>\n<p><strong>TE RECOMENDAMOS:<\/strong><\/p>\n<blockquote
+        class=\"wp-embedded-content\" data-secret=\"XIv54hdrXo\"><p><a href=\"https:\/\/www.forbes.com.mx\/el-proceso-para-cancelar-el-nuevo-aeropuerto-fue-equivocado-alfonso-romo\/\">El
+        proceso para cancelar el nuevo aeropuerto fue equivocado: Alfonso Romo<\/a><\/p><\/blockquote>\n<p><iframe
+        class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\"
+        style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https:\/\/www.forbes.com.mx\/el-proceso-para-cancelar-el-nuevo-aeropuerto-fue-equivocado-alfonso-romo\/embed\/#?secret=XIv54hdrXo\"
+        data-secret=\"XIv54hdrXo\" width=\"600\" height=\"338\" title=\"&#171;El proceso
+        para cancelar el nuevo aeropuerto fue equivocado: Alfonso Romo&#187; &#8212;
+        Forbes M\u00e9xico\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\"
+        scrolling=\"no\"><\/iframe><\/p>\n","protected":false},"excerpt":{"rendered":"<p>Expertos
+        se\u00f1alan buenas intenciones en el PND, pero destacan la falta de certidumbre.
+        <\/p>\n","protected":false},"author":349,"featured_media":524370,"comment_status":"closed","ping_status":"closed","sticky":false,"template":"","format":"standard","meta":[],"categories":[13],"tags":[],"yst_prominent_words":[84577,43369,36798,36928,45544,35336,45097,35143,124794,124792,44237,124793,102058,36377,68460,103529,73898,68457,65166,72826],"_links":{"self":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560939"}],"collection":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/types\/post"}],"author":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/users\/349"}],"replies":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/comments?post=560939"}],"version-history":[{"count":2,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560939\/revisions"}],"predecessor-version":[{"id":561053,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560939\/revisions\/561053"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media\/524370"}],"wp:attachment":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media?parent=560939"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/categories?post=560939"},{"taxonomy":"post_tag","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/tags?post=560939"},{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/yst_prominent_words?post=560939"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":560697,"date":"2019-05-02T08:41:41","date_gmt":"2019-05-02T13:41:41","guid":{"rendered":"https:\/\/www.forbes.com.mx\/?p=560697"},"modified":"2019-05-02T11:24:23","modified_gmt":"2019-05-02T16:24:23","slug":"es-posible-la-meta-de-crecimiento-de-4-insiste-amlo","status":"publish","type":"post","link":"https:\/\/www.forbes.com.mx\/es-posible-la-meta-de-crecimiento-de-4-insiste-amlo\/","title":{"rendered":"Es
+        posible la meta de crecimiento de 4%, insiste AMLO"},"content":{"rendered":"<p><strong>Notimex.-<\/strong>
+        El presidente Andr\u00e9s Manuel L\u00f3pez Obrador asever\u00f3 que s\u00ed
+        es posible alcanzar un crecimiento de 4% en t\u00e9rminos econ\u00f3micos,
+        como se indica en el Plan Nacional de Desarrollo que recientemente envi\u00f3
+        su gobierno a la C\u00e1mara de Diputados.<\/p>\n<p>Sostuvo que &#171;hay
+        \u00e1nimo&#187; para lograr esta meta; hay disposici\u00f3n de los gobernadores,
+        de los empresarios representados por Carlos Salazar, presidente del Consejo
+        Coordinador Empresarial (CCE), e incluso \u2013dijo\u2013 Carlos Slim ha afirmado
+        que es posible crecer al cuatro por ciento.<\/p>\n<p><em><strong>Lee tambi\u00e9n:\u00a0<\/strong><\/em><a
+        title=\"Slim da espaldarazo a plan de crecimiento de AMLO: \u2018yo no me
+        preocupar\u00eda nada\u2019\" href=\"https:\/\/www.forbes.com.mx\/slim-da-espaldarazo-a-plan-de-crecimiento-de-amlo-yo-no-me-preocuparia-nada\/\"><em><strong>Slim
+        da espaldarazo a plan de crecimiento de AMLO: \u2018yo no me preocupar\u00eda
+        nada\u2019<\/strong><\/em><\/a><\/p>\n<p>El Plan Nacional de Desarrollo (PND)
+        presentado ayer se\u00f1ala que la econom\u00eda del pa\u00eds alcanzar\u00e1
+        una tasa de crecimiento de 6% para 2024 y prev\u00e9 que, en promedio, el
+        PIB sea de 4% durante todo el sexenio.<\/p>\n<p>El Ejecutivo record\u00f3
+        que un crecimiento similar ya se ha logrado en el pasado: &#171;desde los
+        a\u00f1os 30 hasta los 80 del siglo pasado, crecimos en promedio al 5% y durante
+        el periodo de 12 a\u00f1os en que Antonio Ortiz Mena fue secretario de Hacienda,
+        en los gobiernos de Adolfo L\u00f3pez Mateos y Gustavo D\u00edaz Ordaz, el
+        crecimiento promedio fue de 7%, en lo que se llam\u00f3 el &#8216;Milagro
+        Mexicano''&#187;.<\/p>\n<p>&#171;Es decir, s\u00ed es posible la meta de crecimiento
+        del 4%&#187;, insisti\u00f3 el mandatario federal durante su conferencia de
+        prensa matutina en Palacio Nacional.<\/p>\n","protected":false},"excerpt":{"rendered":"<p>El
+        presidente L\u00f3pez Obrador consider\u00f3 que hay \u00e1nimo en empresarios
+        y pol\u00edticos para elevar el crecimiento econ\u00f3mico.<\/p>\n","protected":false},"author":6,"featured_media":560700,"comment_status":"closed","ping_status":"closed","sticky":false,"template":"","format":"standard","meta":[],"categories":[9],"tags":[2786,1530,553],"yst_prominent_words":[71220,35995,35241,43369,63307,62907,44053,36377,68460,36876,62904,73898,68457,35355,37552,74376],"_links":{"self":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560697"}],"collection":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/types\/post"}],"author":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/users\/6"}],"replies":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/comments?post=560697"}],"version-history":[{"count":1,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560697\/revisions"}],"predecessor-version":[{"id":560701,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560697\/revisions\/560701"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media\/560700"}],"wp:attachment":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media?parent=560697"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/categories?post=560697"},{"taxonomy":"post_tag","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/tags?post=560697"},{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/yst_prominent_words?post=560697"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":560589,"date":"2019-05-01T14:29:29","date_gmt":"2019-05-01T19:29:29","guid":{"rendered":"https:\/\/www.forbes.com.mx\/?p=560589"},"modified":"2019-05-01T19:25:07","modified_gmt":"2019-05-02T00:25:07","slug":"plan-nacional-de-desarrollo-sera-ejemplo-internacional-amlo","status":"publish","type":"post","link":"https:\/\/www.forbes.com.mx\/plan-nacional-de-desarrollo-sera-ejemplo-internacional-amlo\/","title":{"rendered":"Plan
+        Nacional de Desarrollo ser\u00e1 ejemplo internacional: AMLO"},"content":{"rendered":"<p><strong>Notimex.-<\/strong>
+        Con la presentaci\u00f3n del Plan Nacional de Desarrollo, que fue entregado
+        &#171;en tiempo y forma al Congreso de la Uni\u00f3n&#187;, estamos inaugurando
+        una nueva etapa, se trata de un modelo de desarrollo que va a funcionar muy
+        bien en M\u00e9xico y que va a ser un ejemplo a nivel internacional, es un
+        nuevo camino, afirm\u00f3 el presidente Andr\u00e9s Manuel L\u00f3pez Obrador.<\/p>\n<p>A
+        trav\u00e9s de un video difundido en sus redes sociales, el primer mandatario
+        present\u00f3 el Plan Nacional de Desarrollo 2018-2024 que entreg\u00f3 al
+        Congreso en la fecha prevista por ley, que no s\u00f3lo es una formalidad,
+        sino &#171;por primera vez en 36 a\u00f1os de periodo neoliberal se presenta
+        un Plan de Desarrollo que no se ajusta a los dictados de los organismos internacionales
+        ni de los gobiernos extranjeros&#187;.<\/p>\n<p>Explic\u00f3 que el documento
+        tiene sus bases en el plan de Partido Liberal, de los hermanos Flores Mag\u00f3n,
+        que se public\u00f3 por primera vez en 1906 y que deber\u00eda considerarse
+        como una lectura obligatoria para muchos &#171;que fueron influenciados por
+        el pensamiento neoliberal, que les trabajaron la mente, que les lavaron el
+        cerebro, para decirlo coloquialmente&#187;.<\/p>\n<p>Ese documento ya hablaba
+        de fortalecer el mercado interno, de darle m\u00e1s ingreso a los trabajadores
+        para beneficiar a las industrias y al comercio.<\/p>\n<p>En el video filmado
+        en su oficina del Palacio Nacional, enfatiz\u00f3 que \u00e9ste se grab\u00f3
+        el 1 de mayo y, por eso, dijo, se escuchan de fondo los discursos de los l\u00edderes
+        de trabajadores reunidos en el Z\u00f3calo para la conmemoraci\u00f3n del
+        D\u00eda del Trabajo.<\/p>\n<p>Explic\u00f3 que otra de las fuentes de inspiraci\u00f3n
+        del texto es el Plan Sexenal que present\u00f3 desde su campa\u00f1a electoral
+        el expresidente L\u00e1zaro C\u00e1rdenas.<\/p>\n<p>Sostuvo que durante el
+        periodo neoliberal, las estrategias de desarrollo no consideraban m\u00e1s
+        que el crecimiento econ\u00f3mico y no el desarrollo, que son conceptos distintos.<\/p>\n<p>En
+        efecto, reconoci\u00f3 L\u00f3pez Obrador, debe haber crecimiento econ\u00f3mico,
+        pero tambi\u00e9n se tiene que considerar la redistribuci\u00f3n del ingreso,
+        que constituye el aut\u00e9ntico motor del desarrollo.<\/p>\n<p>Detall\u00f3
+        que el Plan Nacional de Desarrollo que present\u00f3 incluye por primera vez
+        en la historia reciente la palabra corrupci\u00f3n, a la que calific\u00f3
+        como el mayor problema de M\u00e9xico. Se habla tambi\u00e9n de combatir la
+        impunidad y de crear empleos.<\/p>\n<p>Incluy\u00f3 tambi\u00e9n el bienestar
+        del pueblo y como garantizar la paz y la tranquilidad: &#171;Los invito a
+        que lo lean, b\u00e1jenle a la pol\u00e9mica&#187;, invit\u00f3, y a\u00f1adi\u00f3
+        que &#171;con este documento se &#8216;pinta la raya&#8217;, ya no estamos
+        en el periodo neoliberal. Es un periodo que hemos llamado postneoliberalismo&#187;,
+        asegur\u00f3.<\/p>\n<p>El Ejecutivo federal asegur\u00f3 que se trata de un
+        cambio de paradigma, de un nuevo modelo de desarrollo que &#171;va a funcionar
+        bien en M\u00e9xico y que -sin presumir- va a ser ejemplo a nivel internacional,
+        es una nueva v\u00eda&#187;, indic\u00f3.<\/p>\n","protected":false},"excerpt":{"rendered":"<p>El
+        documento tiene sus bases en el plan de Partido Liberal, de los hermanos Flores
+        Mag\u00f3n, que se public\u00f3 por primera vez en 1906 y que deber\u00eda
+        considerarse como una lectura obligatoria.<\/p>\n","protected":false},"author":6,"featured_media":559717,"comment_status":"closed","ping_status":"closed","sticky":false,"template":"","format":"standard","meta":[],"categories":[9],"tags":[2786,60,31,273,1804],"yst_prominent_words":[38100,36867,43369,35936,124172,124170,43745,34448,124171,36377,68460,76121,84586,44571,91509,62904,73898,68457,38485,62868],"_links":{"self":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560589"}],"collection":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/types\/post"}],"author":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/users\/6"}],"replies":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/comments?post=560589"}],"version-history":[{"count":1,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560589\/revisions"}],"predecessor-version":[{"id":560590,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560589\/revisions\/560590"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media\/559717"}],"wp:attachment":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media?parent=560589"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/categories?post=560589"},{"taxonomy":"post_tag","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/tags?post=560589"},{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/yst_prominent_words?post=560589"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":560568,"date":"2019-05-01T12:16:53","date_gmt":"2019-05-01T17:16:53","guid":{"rendered":"https:\/\/www.forbes.com.mx\/?p=560568"},"modified":"2019-05-01T13:21:38","modified_gmt":"2019-05-01T18:21:38","slug":"amlo-compara-caida-economica-trimestral-con-la-de-zedillo","status":"publish","type":"post","link":"https:\/\/www.forbes.com.mx\/amlo-compara-caida-economica-trimestral-con-la-de-zedillo\/","title":{"rendered":"AMLO
+        compara ca\u00edda econ\u00f3mica trimestral con la de Zedillo"},"content":{"rendered":"<p><strong>Notimex.-<\/strong>
+        A pesar de que los adversarios apuestan a que le vaya mal al gobierno federal,
+        la realidad es que &#171;vamos muy bien&#187; en materia econ\u00f3mica, insisti\u00f3
+        el presidente Andr\u00e9s Manuel L\u00f3pez Obrador, al referirse a los indicadores
+        econ\u00f3micos.<\/p>\n<p>En ese sentido, recomend\u00f3 a los &#171;expertos
+        y analistas conservadores&#187; revisar c\u00f3mo inici\u00f3 el primer trimestre
+        del expresidente Ernesto Zedillo, que tuvo un crecimiento de menos siete,
+        pero fue calificado como buen gobierno, &#171;claro que estoy poniendo algo
+        extremo, pero como as\u00ed se llevan, puedo darme ese lujo&#187;.<\/p>\n<p>Afirm\u00f3
+        que no hay subejercicio en el uso los recursos del Estado, pues se avanza
+        de acuerdo con lo programado y si bien los principios b\u00e1sicos se establecer\u00e1n
+        a partir de la Ley de Austeridad que ya aprob\u00f3 la C\u00e1mara de Diputados,
+        algunas acciones ya se est\u00e1n tomando como la eliminaci\u00f3n de direcciones
+        generales adjuntas, para establecer una austeridad republicana juarista.<\/p>\n<p>En
+        conferencia de prensa matutina, L\u00f3pez Obrador se refiri\u00f3 tambi\u00e9n
+        a la forma en que se distribuir\u00e1n los recursos que se obtengan de los
+        ahorros que realice el gobierno a partir de la estrategia de austeridad y
+        la ley en la materia, y refrend\u00f3 que habr\u00e1 transparencia.<\/p>\n<p>Precis\u00f3
+        que mediante un memor\u00e1ndum orden\u00f3 que desaparecieran las direcciones
+        adjuntas que se crearon durante la administraci\u00f3n del presidente Felipe
+        Calder\u00f3n, &#171;y ahora que estamos haciendo la revisi\u00f3n, nos estamos
+        encontrando que algunos no hicieron caso&#187;, por lo que se llevar\u00e1
+        a cabo una nueva inspecci\u00f3n.<\/p>\n<p>El Ejecutivo federal coment\u00f3
+        que se deben modificar todos esos procedimientos, porque, insisti\u00f3, no
+        puede haber gobierno rico con pueblo pobre, &#171;le costaba much\u00edsimo
+        al pueblo mantener al gobierno. Entonces, austeridad republicana, juarista&#187;.<\/p>\n<p>Dijo
+        que &#171;est\u00e1 pendiente la creaci\u00f3n de un instituto que se va a
+        llamar algo as\u00ed como &#8216;devolverle al pueblo lo robado&#8217;. Un
+        poco lo que hac\u00eda &#8216;Chucho el roto&#8217;, pero ac\u00e1 es lo robado
+        por pol\u00edticos corruptos o lo mal habido, lo que tiene la delincuencia.
+        Todo eso se va a devolver al pueblo&#187;.<\/p>\n<p>En este contexto, record\u00f3
+        el caso del empresario chino nacionalizado mexicano Zhenli Ye Gon, en cuyo
+        domicilio, en marzo de 2007, se aseguraron 205 millones de d\u00f3lares, 18
+        millones de pesos, 200 mil euros y 113 mil d\u00f3lares de Hong Kong en efectivo,
+        as\u00ed como 11 centenarios y un lote de joyas.<\/p>\n<p>Ante ello, Ye Gon
+        emprendi\u00f3 la fuga y tras ser buscado en 189 pa\u00edses, acusado de ser
+        uno de los mayores traficantes de pseudoefedrina, se logr\u00f3 su captura
+        en julio de 2007, en Rockville, Maryland, Estados Unidos, donde despu\u00e9s
+        de estar preso en ese pa\u00eds, se gir\u00f3 una orden de extradici\u00f3n
+        a M\u00e9xico, la cual se llev\u00f3 a cabo en octubre de 2016.<\/p>\n<p>El
+        presidente pregunt\u00f3 a los comunicadores si conoc\u00edan el destino de
+        esos recursos y expres\u00f3 que \u00e9l mismo no sab\u00eda &#171;a d\u00f3nde
+        fue a parar ese dinero&#187;.<\/p>\n<p>Cabe destacar que, en julio de 2007,
+        el entonces procurador General de la Rep\u00fablica, Eduardo Medina Mora,
+        inform\u00f3 que los 205 millones de d\u00f3lares que se decomisaron a Ye
+        Gon se distribuyeron en partes iguales entre la otrora PGR, el Poder Judicial
+        de la Federaci\u00f3n y la Secretar\u00eda de Salud.<\/p>\n","protected":false},"excerpt":{"rendered":"<p>La
+        econom\u00eda mexicana retrocedi\u00f3 0.2% de enero a marzo de 2019. El presidente
+        dijo que en el mismo periodo del expresidente priista el PIB se hundi\u00f3
+        7%.<\/p>\n","protected":false},"author":6,"featured_media":558227,"comment_status":"closed","ping_status":"closed","sticky":false,"template":"","format":"standard","meta":[],"categories":[9],"tags":[2786,1288,60,1280,7500],"yst_prominent_words":[65977,124157,72426,78773,124151,64950,40831,35336,124156,108687,124153,62891,43745,65037,35355,63670,41650,124154,124155,124152],"_links":{"self":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560568"}],"collection":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/types\/post"}],"author":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/users\/6"}],"replies":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/comments?post=560568"}],"version-history":[{"count":1,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560568\/revisions"}],"predecessor-version":[{"id":560571,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560568\/revisions\/560571"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media\/558227"}],"wp:attachment":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media?parent=560568"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/categories?post=560568"},{"taxonomy":"post_tag","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/tags?post=560568"},{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/yst_prominent_words?post=560568"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":560516,"date":"2019-05-01T09:01:46","date_gmt":"2019-05-01T14:01:46","guid":{"rendered":"https:\/\/www.forbes.com.mx\/?p=560516"},"modified":"2019-05-01T18:04:20","modified_gmt":"2019-05-01T23:04:20","slug":"amlo-anuncia-rescate-de-cuerpos-de-mineros-fallecidos-en-pasta-de-conchos","status":"publish","type":"post","link":"https:\/\/www.forbes.com.mx\/amlo-anuncia-rescate-de-cuerpos-de-mineros-fallecidos-en-pasta-de-conchos\/","title":{"rendered":"AMLO
+        anuncia rescate de cuerpos de mineros fallecidos en Pasta de Conchos"},"content":{"rendered":"<p>El
+        presidente Andr\u00e9s Manuel L\u00f3pez Obrador anunci\u00f3 que en breve
+        iniciar\u00e1n los trabajos para rescatar los cuerpos de los 65 mineros que
+        quedaron enterrados en la mina Pasta de Conchos desde el a\u00f1o 2006, pues
+        es un compromiso de su gobierno.<\/p>\n<p>En conferencia de prensa indic\u00f3
+        que se recurrir\u00e1 a expertos, especialistas, para recuperar los restos
+        de los mineros en Choahuila, con el objetivo de dar respuesta a una sentida
+        petici\u00f3n de los familiares, as\u00ed como refrendar la vocaci\u00f3n
+        humanista de todos los mexicanos.<\/p>\n<p>\u201cEs un acto de justicia, es
+        un compromiso que hicimos desde hace alg\u00fan tiempo\u201d, mencion\u00f3
+        el mandatario federal al recordar que se comprometi\u00f3 a que el gobierno
+        dejar\u00e1 de ser, por autoritarismo o por omisi\u00f3n, el principal violador
+        de los derechos humanos.<\/p>\n<p>El 19 de febrero de 2006 una explosi\u00f3n
+        en la mina dej\u00f3 atrapados a 65 trabajadores de la compa\u00f1\u00eda
+        Industrial Minera M\u00e9xico, perteneciente a Grupo M\u00e9xico, conglomerado
+        del empresario Germ\u00e1n Larrea, el segundo hombre m\u00e1s rico de M\u00e9xico,
+        cuya fortuna asciende a 13,300 millones de d\u00f3lares seg\u00fan <strong>Forbes
+        M\u00e9xico.<\/strong><\/p>\n<p><em><strong>Aqu\u00ed\u00a0 m\u00e1s informaci\u00f3n:\u00a0<a
+        href=\"https:\/\/www.forbes.com.mx\/billionaires-2019-la-familia-mexicana-crece-pero-con-menos-dolares\/\">Billionaires
+        2019 | Los mexicanos m\u00e1s ricos: aumentan, pero tienen menos dinero<\/a><\/strong><\/em><\/p>\n<p>L\u00f3pez
+        Obrador dijo que consult\u00f3 al empresario, pero est\u00e1 fuera del pa\u00eds,
+        aunque descart\u00f3 que \u00e9l se oponga al rescate.<\/p>\n<p>Record\u00f3
+        que previamente le propuso este rescate, pero Larrea consider\u00f3 que era
+        improbable encontrar los restos de los trabajadores, aunque el presidente
+        mexicano dijo que hay opiniones en otro sentido.<\/p>\n<p>&#171;Si (Larrea)
+        ayuda, bienvenido, si no, de todas maneras lo vamos a hacer&#187;, coment\u00f3.<\/p>\n<p>Dijo
+        que la Secretar\u00eda del Trabajo recibi\u00f3 un presupuesto 40,000 millones
+        de pesos, un aumento de casi 500%, por lo tanto, dijo que se destinar\u00e1
+        &#171;lo que se requiera&#187; a los trabajos de recuperaci\u00f3n de restos.<\/p>\n<p><em>Con
+        informaci\u00f3n de Notimex.<\/em><\/p>\n","protected":false},"excerpt":{"rendered":"<p>L\u00f3pez
+        Obrador dijo que el empresario Germ\u00e1n Larrea, due\u00f1o de la firma
+        minera con la que ocurri\u00f3 el accidente, no se opondr\u00e1 al rescate,
+        a pesar de que \u00e9l consider\u00f3 improbable encontrar los cuerpos.<\/p>\n","protected":false},"author":6,"featured_media":532925,"comment_status":"closed","ping_status":"closed","sticky":false,"template":"","format":"standard","meta":[],"categories":[49841],"tags":[2786,1071,963,15079,90689],"yst_prominent_words":[73968,79523,74312,38501,35336,35500,80154,62907,43745,37740,34448,90468,76082,43747,35355,74252,71663,43357,36840],"_links":{"self":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560516"}],"collection":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/types\/post"}],"author":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/users\/6"}],"replies":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/comments?post=560516"}],"version-history":[{"count":2,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560516\/revisions"}],"predecessor-version":[{"id":560536,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560516\/revisions\/560536"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media\/532925"}],"wp:attachment":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media?parent=560516"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/categories?post=560516"},{"taxonomy":"post_tag","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/tags?post=560516"},{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/yst_prominent_words?post=560516"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":560477,"date":"2019-04-30T18:35:26","date_gmt":"2019-04-30T23:35:26","guid":{"rendered":"https:\/\/www.forbes.com.mx\/?p=560477"},"modified":"2019-04-30T18:35:26","modified_gmt":"2019-04-30T23:35:26","slug":"senado-echa-abajo-reforma-educativa-de-pena-nieto-aprueba-la-de-amlo","status":"publish","type":"post","link":"https:\/\/www.forbes.com.mx\/senado-echa-abajo-reforma-educativa-de-pena-nieto-aprueba-la-de-amlo\/","title":{"rendered":"Senado
+        echa abajo reforma educativa de Pe\u00f1a Nieto; aprueba la de AMLO"},"content":{"rendered":"<p>Notimex.-
+        El Senado de la Rep\u00fablica aprob\u00f3 en lo general con 95 a favor, 25
+        en contra y dos abstenciones, la Reforma Educativa que envi\u00f3 el presidente
+        Andr\u00e9s Manuel L\u00f3pez Obrador y que deroga, entre otros cambios, la
+        establecida en el sexenio de Enrique Pe\u00f1a Nieto.<\/p>\n<p>Pese al voto
+        en contra del Partido Acci\u00f3n Nacional (PAN), el pleno de la C\u00e1mara
+        de Senadores logr\u00f3 los sufragios suficientes para lograr las dos terceras
+        partes, mayor\u00eda calificada, necesaria para aprobarla.<\/p>\n<p>Legisladores
+        de diversos partidos presentaron reservas que se discutir\u00e1n una a una
+        para poder modificar diversos art\u00edculos de la contrarreforma.<\/p>\n<p><strong>Te
+        recomendamos:<\/strong><\/p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"jwLXtod5B9\"><p><a
+        href=\"https:\/\/www.forbes.com.mx\/diputados-aprueban-la-reforma-educativa-de-amlo\/\">Diputados
+        &#8216;madrugan&#8217; con aprobaci\u00f3n de la reforma educativa de AMLO<\/a><\/p><\/blockquote>\n<p><iframe
+        class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\"
+        style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https:\/\/www.forbes.com.mx\/diputados-aprueban-la-reforma-educativa-de-amlo\/embed\/#?secret=jwLXtod5B9\"
+        data-secret=\"jwLXtod5B9\" width=\"600\" height=\"338\" title=\"&#171;Diputados
+        &#8216;madrugan&#8217; con aprobaci\u00f3n de la reforma educativa de AMLO&#187;
+        &#8212; Forbes M\u00e9xico\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\"
+        scrolling=\"no\"><\/iframe><\/p>\n","protected":false},"excerpt":{"rendered":"<p>Pese
+        al voto en contra del Partido Acci\u00f3n Nacional (PAN), el pleno de la C\u00e1mara
+        de Senadores logr\u00f3 los sufragios suficientes para aprobarla.<\/p>\n","protected":false},"author":6,"featured_media":545342,"comment_status":"closed","ping_status":"closed","sticky":false,"template":"","format":"standard","meta":[],"categories":[52439],"tags":[32421,235,1847],"yst_prominent_words":[69288],"_links":{"self":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560477"}],"collection":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/types\/post"}],"author":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/users\/6"}],"replies":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/comments?post=560477"}],"version-history":[{"count":1,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560477\/revisions"}],"predecessor-version":[{"id":560481,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560477\/revisions\/560481"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media\/545342"}],"wp:attachment":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media?parent=560477"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/categories?post=560477"},{"taxonomy":"post_tag","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/tags?post=560477"},{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/yst_prominent_words?post=560477"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":560433,"date":"2019-04-30T16:50:05","date_gmt":"2019-04-30T21:50:05","guid":{"rendered":"https:\/\/www.forbes.com.mx\/?p=560433"},"modified":"2019-04-30T16:50:05","modified_gmt":"2019-04-30T21:50:05","slug":"el-plan-maestro-de-amlo-para-santa-lucia","status":"publish","type":"post","link":"https:\/\/www.forbes.com.mx\/el-plan-maestro-de-amlo-para-santa-lucia\/","title":{"rendered":"El
+        plan maestro de AMLO para Santa Luc\u00eda"},"content":{"rendered":"<p>El
+        general ingeniero Gustavo Vallejo, encargado del proyecto Aeropuerto Internacional
+        \u201cGeneral Felipe \u00c1ngeles\u201d, dijo que esperan la respuesta de
+        la Secretar\u00eda de Medio Ambiente (Semarnat) con respecto a la Manifestaci\u00f3n
+        de Impacto Ambiental, a la cual posiblemente tendr\u00e1 modificaciones.<\/p>\n","protected":false},"excerpt":{"rendered":"<p>El
+        general ingeniero Gustavo Vallejo, encargado del proyecto Aeropuerto Internacional
+        \u201cGeneral Felipe \u00c1ngeles\u201d, dijo que esperan la respuesta de
+        la Secretar\u00eda de Medio Ambiente (Semarnat) con respecto a la Manifestaci\u00f3n
+        de Impacto Ambiental, a la cual posiblemente tendr\u00e1 modificaciones.<\/p>\n","protected":false},"author":481,"featured_media":560434,"comment_status":"closed","ping_status":"closed","sticky":false,"template":"","format":"video","meta":[],"categories":[14],"tags":[],"yst_prominent_words":[],"_links":{"self":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560433"}],"collection":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/types\/post"}],"author":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/users\/481"}],"replies":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/comments?post=560433"}],"version-history":[{"count":1,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560433\/revisions"}],"predecessor-version":[{"id":560435,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560433\/revisions\/560435"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media\/560434"}],"wp:attachment":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media?parent=560433"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/categories?post=560433"},{"taxonomy":"post_tag","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/tags?post=560433"},{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/yst_prominent_words?post=560433"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}},{"id":560350,"date":"2019-04-30T13:39:34","date_gmt":"2019-04-30T18:39:34","guid":{"rendered":"https:\/\/www.forbes.com.mx\/?p=560350"},"modified":"2019-04-30T13:42:47","modified_gmt":"2019-04-30T18:42:47","slug":"empresa-del-compadre-de-amlo-se-retira-de-licitacion","status":"publish","type":"post","link":"https:\/\/www.forbes.com.mx\/empresa-del-compadre-de-amlo-se-retira-de-licitacion\/","title":{"rendered":"Empresa
+        del compadre de AMLO se retira de licitaci\u00f3n"},"content":{"rendered":"<p>Bio
+        Pappel Scribe, empresa de Miguel Rinc\u00f3n, compadre del presidente Andr\u00e9s
+        Manuel L\u00f3pez Obrador, se retir\u00f3 de la licitaci\u00f3n para vender
+        papel a la Comisi\u00f3n Nacional de Libros de Texto Gratuitos (Conaliteg).<\/p>\n<p>&#171;Para
+        apoyar la visi\u00f3n de transparencia a prueba de suspicacias que promueve
+        el presidente de la Rep\u00fablica, el Consejo de Administraci\u00f3n de Bio
+        Pappel informa que, por esta ocasi\u00f3n, apoya su petici\u00f3n y se retirar\u00e1
+        de esta licitaci\u00f3n&#187;, dijo la empresa en un comunicado enviado a
+        la Bolsa Mexicana de Valores (BMV).<\/p>\n<p>De acuerdo con el documento,
+        la compa\u00f1\u00eda del compadre de AMLO no exigir\u00e1 indemnizaci\u00f3n
+        al gobierno como corresponde por ley ante una cancelaci\u00f3n injustificada.<\/p>\n<p>Hace
+        d\u00edas, el presidente orden\u00f3 buscar la forma legal para cancelar el
+        contrato que gan\u00f3 ayer una compa\u00f1\u00eda de su compadre, el empresario
+        Miguel Rinc\u00f3n.<\/p>\n<p>Bio Pappel Scribe gan\u00f3 un contrato abierto
+        hasta por 221.6 millones de pesos para ser proveedor de papel para los libros
+        de texto gratuito de la Secretar\u00eda de Educaci\u00f3n P\u00fablica (SEP).<\/p>\n<p><strong>Te
+        recomendamos:\u00a0<\/strong><\/p>\n<blockquote class=\"wp-embedded-content\"
+        data-secret=\"FBttGTOesm\"><p><a href=\"https:\/\/www.forbes.com.mx\/amlo-ordena-cancelar-contrato-ganado-por-su-compadre-miguel-rincon\/\">AMLO
+        ordena cancelar contrato ganado por su compadre Miguel Rinc\u00f3n<\/a><\/p><\/blockquote>\n<p><iframe
+        class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\"
+        style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https:\/\/www.forbes.com.mx\/amlo-ordena-cancelar-contrato-ganado-por-su-compadre-miguel-rincon\/embed\/#?secret=FBttGTOesm\"
+        data-secret=\"FBttGTOesm\" width=\"600\" height=\"338\" title=\"&#171;AMLO
+        ordena cancelar contrato ganado por su compadre Miguel Rinc\u00f3n&#187; &#8212;
+        Forbes M\u00e9xico\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\"
+        scrolling=\"no\"><\/iframe><\/p>\n","protected":false},"excerpt":{"rendered":"<p>La
+        compa\u00f1\u00eda del compadre de AMLO no exigir\u00e1 indemnizaci\u00f3n
+        al gobierno como corresponde por ley ante una cancelaci\u00f3n injustificada.<\/p>\n","protected":false},"author":6,"featured_media":560293,"comment_status":"closed","ping_status":"closed","sticky":false,"template":"","format":"standard","meta":[],"categories":[13],"tags":[2786,7384,11349,1903],"yst_prominent_words":[122493,122491,122489,122487,34711,43789,35489,70086,43441,86611,74039,44129,122490,45477,122494,122492,35355,83240,122495,86654],"_links":{"self":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560350"}],"collection":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts"}],"about":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/types\/post"}],"author":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/users\/6"}],"replies":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/comments?post=560350"}],"version-history":[{"count":2,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560350\/revisions"}],"predecessor-version":[{"id":560358,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/posts\/560350\/revisions\/560358"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media\/560293"}],"wp:attachment":[{"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/media?parent=560350"}],"wp:term":[{"taxonomy":"category","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/categories?post=560350"},{"taxonomy":"post_tag","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/tags?post=560350"},{"taxonomy":"yst_prominent_words","embeddable":true,"href":"https:\/\/www.forbes.com.mx\/wp-json\/wp\/v2\/yst_prominent_words?post=560350"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}]'
+    http_version: 
+  recorded_at: Fri, 03 May 2019 19:14:10 GMT
+recorded_with: VCR 4.0.0
