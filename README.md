@@ -7,6 +7,8 @@ Se recuperan noticias de diversos sitios de comunicación del presidente de Méx
 * ruby on rails 5.2.3
 * redis
 * postgresql
+* gem install foreman
+* copiar .env.example a .env
 
 ## instalación
 ```sh
@@ -17,6 +19,8 @@ bundle install
 rails db:create
 rails db:migrate
 
+foreman start
+// o ejecutar los siguientes comandos por semarado
 sidekiq
 rails serve
 ```
